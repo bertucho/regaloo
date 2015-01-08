@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  script(src="/javascripts/jquery-1.6.4.min.js")
+  script(src="/javascripts/view.rifa.js")
+  #content
+    p#question
+      | Elige una casilla y descubre tu regalo!
+    #wrapper
+      for casilla, i in regalos
+        div(id=i, class="tapado")
+  #darken
+  #modalbox
+    #contenido
+    #cerrar
+      a(id="comprobar") Continuar
+  #marcador Puntos
+    #puntos= puntos

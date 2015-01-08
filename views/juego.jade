@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  script(src="/javascripts/jquery-1.6.4.min.js")
+  script(src="/javascripts/view.juego.js")
+  #img
+    img(src=cuestion.imagen)
+  #formulario
+    p#question
+      #{cuestion.pregunta}
+      ul#cuestionario
+        for respuesta, i in cuestion.respuestas
+          li
+            input(type="radio", name="opciones", value=i)
+            label
+              span
+              !{respuesta.texto}
+    #mensaje  
+    h2
+      a(id="comprobar", href="#") Comprobar
+  #marcador Puntos
+    #puntos= puntos
