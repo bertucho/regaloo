@@ -1,318 +1,34 @@
 var cuestiones = [
   {
-  	pregunta: "¿Quién es este?"
-  	, imagen: "..\\images\\gatos.png"
+  	pregunta: ""
+  	, imagen: "image-path"
   	, respuestas: [
   	  {
-  	  	texto: "Cyrano"
+  	  	texto: ""
   	  	, puntos: 0
-  	  	, mensaje: "Cyrano es el gris! ya verás cuando se lo cuente..."
-  	  }
-  	  , {
-  	  	texto: "Bagueera"
-  	  	, puntos: 3
-  	  	, mensaje: "Correcto!"
-  	  }
-  	  , {
-  	  	texto: "Piñones"
+  	  	, mensaje: ""
+  	  },
+  	  {
+  	  	texto: ""
   	  	, puntos: 0
-  	  	, mensaje: "Casiiiii pero no :("
+  	  	, mensaje: ""
   	  }
-  	  , {
-  	  	texto: "Calcetines"
-  	  	, puntos: 0
-  	  	, mensaje: "¿De verdad? ¿Esto es lo que conoces a mis gatos?"
-  	  }
-  	 ]
+	]
 
   }
-  , {
-    pregunta: "¿Quién es este?"
-    , imagen: "..\\images\\gatos.png"
-    , respuestas: [
-      {
-        texto: "Cyrano"
-        , puntos: 0
-        , mensaje: "Cyrano es el gris! ya verás cuando se lo cuente..."
-      }
-      , {
-        texto: "Bagueera"
-        , puntos: 3
-        , mensaje: "Correcto!"
-      }
-      , {
-        texto: "Piñones"
-        , puntos: 0
-        , mensaje: "Casiiiii pero no :("
-      }
-      , {
-        texto: "Calcetines"
-        , puntos: 0
-        , mensaje: "¿De verdad? ¿Esto es lo que conoces a mis gatos?"
-      }
-     ]
-
-  }
-  , {
-    pregunta: "¿Quién es este?"
-    , imagen: "..\\images\\gatos.png"
-    , respuestas: [
-      {
-        texto: "Cyrano"
-        , puntos: 0
-        , mensaje: "Cyrano es el gris! ya verás cuando se lo cuente..."
-      }
-      , {
-        texto: "Bagueera"
-        , puntos: 3
-        , mensaje: "Correcto!"
-      }
-      , {
-        texto: "Piñones"
-        , puntos: 0
-        , mensaje: "Casiiiii pero no :("
-      }
-      , {
-        texto: "Calcetines"
-        , puntos: 0
-        , mensaje: "¿De verdad? ¿Esto es lo que conoces a mis gatos?"
-      }
-     ]
-
-  }
-  , {
-    pregunta: "¿Quién es este?"
-    , imagen: "..\\images\\gatos.png"
-    , respuestas: [
-      {
-        texto: "Cyrano"
-        , puntos: 0
-        , mensaje: "Cyrano es el gris! ya verás cuando se lo cuente..."
-      }
-      , {
-        texto: "Bagueera"
-        , puntos: 3
-        , mensaje: "Correcto!"
-      }
-      , {
-        texto: "Piñones"
-        , puntos: 0
-        , mensaje: "Casiiiii pero no :("
-      }
-      , {
-        texto: "Calcetines"
-        , puntos: 0
-        , mensaje: "¿De verdad? ¿Esto es lo que conoces a mis gatos?"
-      }
-     ]
-
-  }
-  , {
-    pregunta: "¿Quién es este?"
-    , imagen: "..\\images\\gatos.png"
-    , respuestas: [
-      {
-        texto: "Cyrano"
-        , puntos: 0
-        , mensaje: "Cyrano es el gris! ya verás cuando se lo cuente..."
-      }
-      , {
-        texto: "Bagueera"
-        , puntos: 3
-        , mensaje: "Correcto!"
-      }
-      , {
-        texto: "Piñones"
-        , puntos: 0
-        , mensaje: "Casiiiii pero no :("
-      }
-      , {
-        texto: "Calcetines"
-        , puntos: 0
-        , mensaje: "¿De verdad? ¿Esto es lo que conoces a mis gatos?"
-      }
-     ]
-
-  }
-  , {
-    pregunta: "¿Quién es este?"
-    , imagen: "..\\images\\gatos.png"
-    , respuestas: [
-      {
-        texto: "Cyrano"
-        , puntos: 0
-        , mensaje: "Cyrano es el gris! ya verás cuando se lo cuente..."
-      }
-      , {
-        texto: "Bagueera"
-        , puntos: 3
-        , mensaje: "Correcto!"
-      }
-      , {
-        texto: "Piñones"
-        , puntos: 0
-        , mensaje: "Casiiiii pero no :("
-      }
-      , {
-        texto: "Calcetines"
-        , puntos: 0
-        , mensaje: "¿De verdad? ¿Esto es lo que conoces a mis gatos?"
-      }
-     ]
-
-  }
-  , {
-    pregunta: "¿Quién es este?"
-    , imagen: "..\\images\\gatos.png"
-    , respuestas: [
-      {
-        texto: "Cyrano"
-        , puntos: 0
-        , mensaje: "Cyrano es el gris! ya verás cuando se lo cuente..."
-      }
-      , {
-        texto: "Bagueera"
-        , puntos: 3
-        , mensaje: "Correcto!"
-      }
-      , {
-        texto: "Piñones"
-        , puntos: 0
-        , mensaje: "Casiiiii pero no :("
-      }
-      , {
-        texto: "Calcetines"
-        , puntos: 0
-        , mensaje: "¿De verdad? ¿Esto es lo que conoces a mis gatos?"
-      }
-     ]
-
-  }
-  , {
-    pregunta: "¿Quién es este?"
-    , imagen: "..\\images\\gatos.png"
-    , respuestas: [
-      {
-        texto: "Cyrano"
-        , puntos: 0
-        , mensaje: "Cyrano es el gris! ya verás cuando se lo cuente..."
-      }
-      , {
-        texto: "Bagueera"
-        , puntos: 3
-        , mensaje: "Correcto!"
-      }
-      , {
-        texto: "Piñones"
-        , puntos: 0
-        , mensaje: "Casiiiii pero no :("
-      }
-      , {
-        texto: "Calcetines"
-        , puntos: 0
-        , mensaje: "¿De verdad? ¿Esto es lo que conoces a mis gatos?"
-      }
-     ]
-
-  }
-  , {
-    pregunta: "¿Quién es este?"
-    , imagen: "..\\images\\gatos.png"
-    , respuestas: [
-      {
-        texto: "Cyrano"
-        , puntos: 0
-        , mensaje: "Cyrano es el gris! ya verás cuando se lo cuente..."
-      }
-      , {
-        texto: "Bagueera"
-        , puntos: 3
-        , mensaje: "Correcto!"
-      }
-      , {
-        texto: "Piñones"
-        , puntos: 0
-        , mensaje: "Casiiiii pero no :("
-      }
-      , {
-        texto: "Calcetines"
-        , puntos: 0
-        , mensaje: "¿De verdad? ¿Esto es lo que conoces a mis gatos?"
-      }
-     ]
-
-  }
-  , {
-    pregunta: "¿Quién es este?"
-    , imagen: "..\\images\\gatos.png"
-    , respuestas: [
-      {
-        texto: "Cyrano"
-        , puntos: 0
-        , mensaje: "Cyrano es el gris! ya verás cuando se lo cuente..."
-      }
-      , {
-        texto: "Bagueera"
-        , puntos: 3
-        , mensaje: "Correcto!"
-      }
-      , {
-        texto: "Piñones"
-        , puntos: 0
-        , mensaje: "Casiiiii pero no :("
-      }
-      , {
-        texto: "Calcetines"
-        , puntos: 0
-        , mensaje: "¿De verdad? ¿Esto es lo que conoces a mis gatos?"
-      }
-     ]
-
-  }
-  
  ];
 
 
 
  var regalos = [
    {
-   	  texto: "Ve a la bañera y rescata tu regalo del agua! Corre!"
+   	texto: ""
       , puntos: 3
-	}
-   , {
-   	  texto: "En la estantería de al lado de la tele hay una cubitera, y dentro tu merecido regalo. " +
-        "Espero que no esté demasiado alto :P"
-      , puntos: 2
- 	}
-   , {
-   	  texto: "Está dentro de la lavadora! ¿Qué será? ¿Qué será? ¡Ay! ¡Qué nervios!"
+	},
+   {
+   	texto: ""
       , puntos: 2
 	}
-   , {
-   	  texto: "Está en el horno. Corre que se quema!!"
-      , puntos: 2
-	}
-   , {
-   	  texto: "Mira en el bidé!"
-      , puntos: 4
-	}
-   , {
-     	texto: "Busca el segundo libro de Harry Potter y descubre lo que hay en su cámara secreta!" +
-        "Pero cuidado con el basilisco!"
-      , puntos: 1
- 	}
-   , {
-   	  texto: "Cocinándose en la olla..."
-      , puntos: 2
-	}
-   , {
-   	  texto: "Simplemente abre la impresora de la derecha"
-      , puntos: 3
-	}
-   , {
-   	  texto: "En mi cama está tu último regalo ;)"
- 	  , puntos: 5
- 	}
  ];
 
 function fisher_yates(array){
